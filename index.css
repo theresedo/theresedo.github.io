@@ -1,0 +1,169 @@
+body {
+    font-family: 'Century Gothic';
+    background-image: url("images/autumn_2.jpg");
+    /*autumn_2 from https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiB6rKo49HOAhUIzmMKHZgVDjsQjRwIBw&url=%2Furl%3Fsa%3Di%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D0ahUKEwiB6rKo49HOAhUIzmMKHZgVDjsQjRwIBw%26url%3Dhttp%253A%252F%252Fwww.kepleset.com%252Flamborghini-aventador-desktop-background-wallpaper%252F%26bvm%3Dbv.129759880%2Cd.cGc%26psig%3DAFQjCNFE6F5w006CnD1WqkpKdSMekP68iA%26ust%3D1471841274955811&bvm=bv.129759880,d.cGc&psig=AFQjCNFE6F5w006CnD1WqkpKdSMekP68iA&ust=1471841274955811*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.header:link, .header:visited, .header:active {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.projectLink:link, .projectLink:visited, .projectLink:active  {
+	text-decoration: none;
+}
+
+.projectLink:hover {
+
+}
+
+.header:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 5px;
+}
+
+.link_proj:link, .link_proj:visited, .link_proj:active {
+    color: rgb(153, 0, 0);
+
+}
+
+.link_proj:hover {
+    color: white;
+}
+
+h1 {
+    border-style: solid;
+    margin: auto;
+    padding: 5px;
+    max-width: 175px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.Projects {
+    border-style: solid;
+    margin: auto;
+    padding: 5px;
+    max-width: 150px;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.picture {
+    border-style: solid;
+    border-radius: 50%;
+    margin: 5px;
+    height: 250px;
+    width: 250px;
+}
+
+.description {
+    border-style: solid;
+    max-width: 650px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+  /*  text-indent: 50px; */
+}
+
+.main {
+    text-align: center;
+}
+
+/* All of the .dropbtn code taken from http://www.w3schools.com/howto/howto_css_dropdown.asp /*
+
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: 3px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.portfolioColumn {
+  border-style: solid;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  width:30vw;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    background-color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: white;
+    color: black;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: white;
+    color:black;
+}
+
+.ProjectTitles {
+    text-decoration: underline;
+}
+
+hr {
+	display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  color: black;
+}
