@@ -167,3 +167,15 @@ hr {
     border-width: 1px;
     color: black;
 }
+
+.social_media {
+    display: block;
+    background: rgba(255, 255, 255, 0.5);
+    border-style: solid;
+    text-align: center;
+    margin: inherit;
+    max-width: 300px;
+    text-align: center;
+    
+}
+
