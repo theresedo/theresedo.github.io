@@ -22,9 +22,7 @@ body {
 	text-decoration: none;
 }
 
-.projectLink:hover {
 
-}
 
 .header:hover {
     color: black;
@@ -175,7 +173,6 @@ hr {
     text-align: center;
     margin: inherit;
     max-width: 300px;
-    text-align: center;
     
 }
 
